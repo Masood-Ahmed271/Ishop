@@ -1,0 +1,48 @@
+################ Products #######################
+
+db.productCollection.insert({name: 'iPhone 13', 'category':'Phones', 'price': 8000, Manufacturer:'Apple Inc.', 'productImage':'images/iPhone13.jpg', 'description':'Most advanced dual camera system ever.'})
+db.productCollection.insert({name: 'Samsung Galaxy A03S', 'category':'Phones', 'price': 6000, Manufacturer:'Samsung', 'productImage':'images/SamsungGlaxay.jpg', 'description':'Provides extreme processor speed.'})
+db.productCollection.insert({name: 'Motorola 979', 'category':'Phones', 'price': 4000, Manufacturer:'Motorola', 'productImage':'images/Motorola979.jpg', 'description':'Most durable mobile you will ever have.'})
+db.productCollection.insert({name: 'Vivo Y30', 'category':'Phones', 'price': 7500, Manufacturer:'Vivo', 'productImage':'images/VivoY30.jpg', 'description':'The cheapest best camera you can get.'})
+db.productCollection.insert({name: 'Infinix 510', 'category':'Phones', 'price': 7000, Manufacturer:'Infinix', 'productImage':'images/Infinix510.jpg', 'description':'The all-rounder you can ever have.'})
+db.productCollection.insert({name: 'Huawie 300', 'category':'Phones', 'price': 9000, Manufacturer:'Huawie', 'productImage':'images/Huawei300.jpg', 'description':'Most reliable mobile from the most reliable company.'})
+db.productCollection.insert({name: 'Oppo 5S', 'category':'Phones', 'price': 5550, Manufacturer:'Oppo', 'productImage':'images/Oppo5S.jpg', 'description':'Oppo just rules the camera industry of mobile phones.'})
+db.productCollection.insert({name: 'Oppo Reno 7', 'category':'Phones', 'price': 7550, Manufacturer:'Oppo', 'productImage':'images/OppoReno7.jpg', 'description':'Oppo brings a new innovation in town.'})
+db.productCollection.insert({name: 'Samsung Galaxy Z Flip', 'category':'Phones', 'price': 7550, Manufacturer:'Samsung', 'productImage':'images/SamsungGlaxayZFlip.jpg', 'description':'You do not have space in your pockets just flip it.'})
+db.productCollection.insert({name: 'iPhone 10', 'category':'Phones', 'price': 6550, Manufacturer:'Apple Inc.', 'productImage':'images/iPhone10.jpg', 'description':'Giving you the best experience of life.'})
+
+
+db.productCollection.insert({name: 'Grey Trousers', 'category':'Clothes', 'price': 800, Manufacturer:'Nike', 'productImage':'images/GreyTrousers.jpg', 'description':'The most comfortable trousers you would have ever worn.'})
+db.productCollection.insert({name: 'Junaid Jamsheds Shalwar Kameez', 'category':'Clothes', 'price': 1000, Manufacturer:'Junaid Jamshed', 'productImage':'images/ShalwarKameez.jpg', 'description':'Looky classy on this Eid.'})
+db.productCollection.insert({name: 'Formal Shirt', 'category':'Clothes', 'price': 2000, Manufacturer:'Hamads Clothing', 'productImage':'images/FormalShirt.jpg', 'description':'Make your colleague jeolous of you.'})
+db.productCollection.insert({name: 'Three-piece Suit', 'category':'Clothes', 'price': 3000, Manufacturer:'The Famous Tailors', 'productImage':'images/Suit.jpg', 'description':'The brand that makes you look tidy and neat.'})
+db.productCollection.insert({name: 'T-shirt', 'category':'Clothes', 'price': 500, Manufacturer:'Polo', 'productImage':'images/T-Shirt.jpg', 'description':'Summer is here, so is our collection.'})
+db.productCollection.insert({name: 'Sweater', 'category':'Clothes', 'price': 600, Manufacturer:'Zara', 'productImage':'images/Sweater.jpg', 'description':'Wear this to avoid this years cold winter.'})
+db.productCollection.insert({name: 'Shorts Men', 'category':'Clothes', 'price': 300, Manufacturer:'Addidas', 'productImage':'images/ShortsMen.jpg', 'description':'Let your legs enjoy the breeze.'})
+db.productCollection.insert({name: 'Skirt', 'category':'Clothes', 'price': 2000, Manufacturer:'Zara', 'productImage':'images/Skirt.jpg', 'description':'Be a flower this summer.'})
+db.productCollection.insert({name: 'Lengha', 'category':'Clothes', 'price': 5000, Manufacturer:'Zara', 'productImage':'images/Lengha.jpg', 'description':'Your marriage season buddy.'})
+db.productCollection.insert({name: 'Hoodie', 'category':'Clothes', 'price': 1000, Manufacturer:'Nike', 'productImage':'images/Hoodie.jpg', 'description':'Let us fight this winter together.'})
+
+db.productCollection.insert({name: 'Apple Airpods', 'category':'Electronics', 'price': 4000, Manufacturer:'Apple Inc.', 'productImage':'images/AppleAirpods.jpg', 'description':'Enjoy the best music ever.'})
+db.productCollection.insert({name: 'Samsung LED', 'category':'Electronics', 'price': 10000, Manufacturer:'Samsung', 'productImage':'images/SamsungLed.jpg', 'description':'Watch your favourite matches on this colorful screen.'})
+db.productCollection.insert({name: 'FitBit', 'category':'Electronics', 'price': 2000, Manufacturer:'Fortress', 'productImage':'images/FitBit.jpg', 'description':'Allow us to help you with your fitness routine.'})
+db.productCollection.insert({name: 'Shaver', 'category':'Electronics', 'price': 1000, Manufacturer:'Philips', 'productImage':'images/Shaver.jpg', 'description':'Look like a gentleman with us.'})
+db.productCollection.insert({name: 'Drone', 'category':'Electronics', 'price': 12000, Manufacturer:'DJI', 'productImage':'images/Drone.jpg', 'description':'Fly with us and be a bird.'})
+db.productCollection.insert({name: 'Hair Dryer', 'category':'Electronics', 'price': 1500, Manufacturer:'Jamal', 'productImage':'images/HairDryer.jpg', 'description':'Dry your hair without any fear of burning them.'})
+db.productCollection.insert({name: 'Lenovo Laptop', 'category':'Electronics', 'price': 8000, Manufacturer:'Lenovo', 'productImage':'images/LenovoLaptop.jpg', 'description':'Our thinkpad will change your life.'})
+db.productCollection.insert({name: 'Casio Electronic Watch', 'category':'Electronics', 'price': 1500, Manufacturer:'Casio', 'productImage':'images/CasioWatch.jpg', 'description':'Wear us to make you look outsanding.'})
+db.productCollection.insert({name: 'Wireless Charger', 'category':'Electronics', 'price': 500, Manufacturer:'Samsung', 'productImage':'images/WirelessCharger.jpg', 'description':'Let us get free from wires.'})
+db.productCollection.insert({name: 'VR Headset', 'category':'Electronics', 'price': 3500, Manufacturer:'HP', 'productImage':'images/VRheadset.jpg', 'description':'We are the pioneers of Virtual Reality.'})
+
+
+##################### Users ######################
+
+db.userCollection.insert({'username': 'Jack', 'password': '654321', 'cart':[{'productId': ObjectId("62b91f1c148f63b82cb93c58"), 'quantity': 1}, {'productId': ObjectId("62b91f32148f63b82cb93c6b"), 'quantity': 2}], 'totalnum': 3})
+db.userCollection.insert({'username': 'Hamid', 'password': '12345', 'cart':[], 'totalnum': 0})
+db.userCollection.insert({'username': 'Masood', 'password': 'masood20', 'cart':[{'productId': ObjectId("62b91f3d148f63b82cb93c6e"), 'quantity': 1}], 'totalnum': 1})
+db.userCollection.insert({'username': 'Farhan', 'password': 'mypassword', 'cart':[{'productId': ObjectId("62b91f3d148f63b82cb93c6f"), 'quantity': 1}, {'productId': ObjectId("62b91f3d148f63b82cb93c70"), 'quantity': 1},{'productId': ObjectId("62b91f3e148f63b82cb93c75"), 'quantity': 1}], 'totalnum': 3})
+db.userCollection.insert({'username': 'Abdulwadood', 'password': 'awaf', 'cart':[{'productId': ObjectId("62b91f3d148f63b82cb93c72"), 'quantity': 1}, {'productId': ObjectId("62b91f3d148f63b82cb93c6d"), 'quantity': 1}], 'totalnum': 2})
+db.userCollection.insert({'username': 'Mubeen', 'password': 'mubeen12', 'cart':[{'productId': ObjectId("62b91f3d148f63b82cb93c6c"), 'quantity': 2}, {'productId': ObjectId("62b91f1c148f63b82cb93c5e"), 'quantity': 2}], 'totalnum': 4})
+db.userCollection.insert({'username': 'Arif', 'password': 'Jamali', 'cart':[{'productId': ObjectId("62b91f21148f63b82cb93c61"), 'quantity': 2}, {'productId': ObjectId("62b91f31148f63b82cb93c68"), 'quantity': 3}], 'totalnum': 5})
+
+
